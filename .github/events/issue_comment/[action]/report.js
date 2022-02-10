@@ -1,5 +1,6 @@
 async ({ events, context, helpers, log }) => {
-  const { keyValue } = helpers
+  console.log('hello world')
+  const { keyValue } = helpers 
   const { payload } = events
   const issue = payload.issue.number
   const comment = payload.comment.id
